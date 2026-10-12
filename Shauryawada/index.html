@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shauryawada Restaurant | Royal Maharashtrian & Fine Dining</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-left">
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">🌙</button>
+            <div class="logo"> 
+                <img src="Logo.png" alt="Shauryawada Logo"> 
+                <span>शौर्यवाडा</span> 
+            </div>
+        </div>
+        <nav> 
+            <a href="#home">Home</a> 
+            <a href="#about">About</a> 
+            <a href="#menu">Menu</a> 
+            <a href="#reviews">Reviews</a> 
+            <a href="#contact">Contact</a> 
+        </nav>
+    </header>
+
+    <!-- HOME HERO --> 
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="small-title reveal-title">WELCOME TO</p>
+            <h1 class="reveal-title">शौर्यवाडा</h1>
+            <h2 class="reveal-title">Royal Maharashtrian & Heritage Cuisine</h2>
+            <p class="reveal-title">An exquisite dining experience where rich regional traditions meet timeless hospitality.</p>
+            <a href="#menu" class="gold-button">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- ABOUT --> 
+    <section id="about" class="about section">
+        <div class="about-image reveal-element"> 
+            <img src="restro_image.png" alt="Shauryawada Ambience"> 
+        </div>
+        <div class="about-text">
+            <p class="section-subtitle reveal-title">THE EXPERIENCE</p>
+            <h2 class="reveal-title">Dining Fit For Royalty</h2>
+            <p class="reveal-element">Shauryawada redefines royal Maharashtrian and Indian dining by blending traditional recipes with rich regional spices.</p>
+            <p class="reveal-element">Step into our dining room and discover authentic flavors—from our signature Shaurya Wada Special Thalis to richly spiced non-veg curries.</p>
+        </div>
+    </section>
+
+    <!-- CAROUSEL MENU SECTION --> 
+    <section id="menu" class="menu-section section">
+        <p class="section-subtitle reveal-title">SIGNATURE HIGHLIGHTS</p>
+        <h2 class="reveal-title">Shauryawada Signature Highlights</h2>
+        <p class="section-description reveal-element">Handcrafted fresh daily with traditional royal Maharashtrian spices.</p>
+
+        <div class="carousel-wrapper reveal-element">
+            <button class="carousel-btn prev-btn" aria-label="Previous">❮</button>
+
+            <div class="menu-carousel">
+                <div class="menu-card" data-category="thali mutton">
+                    <div class="card-badge">★ Royal Special</div>
+                    <div class="veg-indicator non-veg"></div>
+                    <div class="dish-image"><img src="mutton_gavakadchi.png" alt="Mutton Gavakadchi Thali"></div>
+                    <div class="dish-info"> 
+                        <p class="marathi-title">मटन गावकडची थाळी</p>
+                        <h3>Mutton Gavakadchi Thali</h3>
+                        <p>Authentic rural-style mutton gravy, sukkha mutton, tambda/pandhra rassa, and handmade bhakri.</p>
+                        <div class="card-footer-row"><span class="price">₹590</span><span class="badge-tag">Non-Veg</span></div>
+                        <p class="footer-note">Freshly made</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="thali mutton">
+                    <div class="card-badge">★ Chef Choice</div>
+                    <div class="veg-indicator non-veg"></div>
+                    <div class="dish-image"><img src="mutton_special.png" alt="Mutton Special Thali"></div>
+                    <div class="dish-info"> 
+                        <p class="marathi-title">मटन स्पेशल थाळी</p>
+                        <h3>Mutton Special Thali</h3>
+                        <p>Rich tender mutton curry, spicy mutton fry, bowl of authentic rassa, and choice of bread.</p>
+                        <div class="card-footer-row"><span class="price">₹490</span><span class="badge-tag">Non-Veg</span></div>
+                        <p class="footer-note">Freshly made</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="thali chicken">
+                    <div class="card-badge">★ Best Seller</div>
+                    <div class="veg-indicator non-veg"></div>
+                    <div class="dish-image"><img src="chicken_special.png" alt="Chicken Special Thali"></div>
+                    <div class="dish-info"> 
+                        <p class="marathi-title">चिकन स्पेशल थाळी</p>
+                        <h3>Chicken Special Thali</h3>
+                        <p>Rich chicken gravy, spicy fried chicken piece, eggs, rassa, and unlimited rice/roti.</p>
+                        <div class="card-footer-row"><span class="price">₹360</span><span class="badge-tag">Non-Veg</span></div>
+                        <p class="footer-note">Freshly made</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="chicken">
+                    <div class="card-badge">★ House Special</div>
+                    <div class="veg-indicator non-veg"></div>
+                    <div class="dish-image"><img src="butter_chicken.png" alt="Butter Chicken"></div>
+                    <div class="dish-info"> 
+                        <p class="marathi-title">बटर चिकन</p>
+                        <h3>Butter Chicken</h3>
+                        <p>Tender roasted chicken cooked in creamy tomato and cashew butter gravy.</p>
+                        <div class="card-footer-row"><span class="price">₹330</span><span class="badge-tag">Non-Veg</span></div>
+                        <p class="footer-note">Freshly made</p>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="chicken">
+                    <div class="card-badge">★ Chef Special</div>
+                    <div class="veg-indicator non-veg"></div>
+                    <div class="dish-image"><img src="chicken_rogan_josh.png" alt="Chicken Rogan Josh"></div>
+                    <div class="dish-info"> 
+                        <p class="marathi-title">चिकन रोगन जोश</p>
+                        <h3>Chicken Rogan Josh</h3>
+                        <p>Chicken pieces simmered in rich Kashmiri spices and yogurt gravy.</p>
+                        <div class="card-footer-row"><span class="price">₹370</span><span class="badge-tag">Non-Veg</span></div>
+                        <p class="footer-note">Freshly made</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-btn next-btn" aria-label="Next">❯</button>
+        </div>
+
+        <div class="carousel-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <!-- VIEW FULL DIGITAL MENU BUTTON WITH ID FOR JS TOGGLE -->
+        <div style="margin-top: 45px;">
+            <button id="viewFullMenuBtn" class="gold-button">View Full Digital Menu ➔</button>
+        </div>
+    </section>
+
+    <!-- FULL DIGITAL MENU GRID SECTION (HIDDEN BY DEFAULT) -->
+    <section id="full-menu" class="full-menu-section section">
+        <p class="section-subtitle reveal-title">AUTHENTIC SELECTION</p>
+        <h2 class="reveal-title">Full Shauryawada Digital Menu</h2>
+        <p class="section-description reveal-element">Explore authentic Maharashtrian Thalis and Indian Non-Veg Mains.</p>
+
+        <div class="search-filter-wrapper reveal-element">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="menuSearchInput" placeholder="Search menu items (e.g. Mutton Thali, Butter Chicken)...">
+            </div>
+
+            <div class="pill-filter-container">
+                <button class="pill-btn active" data-pill="all">All Items</button>
+                <button class="pill-btn" data-pill="thali">Special Thalis</button>
+                <button class="pill-btn" data-pill="mutton">Mutton Specials</button>
+                <button class="pill-btn" data-pill="chicken">Chicken Specials</button>
+            </div>
+        </div>
+
+        <div class="full-menu-grid reveal-element">
+            <!-- 1. Mutton Gavakadchi Thali -->
+            <div class="full-card" data-pill="thali mutton" data-name="mutton gavakadchi thali मटन गावकडची थाळी">
+                <div class="card-badge">★ Special</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="mutton_gavakadchi.png" alt="Mutton Gavakadchi Thali"></div>
+                <div class="full-card-body">
+                    <h3>Mutton Gavakadchi Thali</h3>
+                    <p class="marathi-sub">मटन गावकडची थाळी</p>
+                    <p class="desc">Authentic rural-style mutton gravy, sukkha mutton, rassa, and bhakri.</p>
+                    <div class="full-card-footer"><span class="price">₹590.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 2. Mutton Special Thali -->
+            <div class="full-card" data-pill="thali mutton" data-name="mutton special thali मटन स्पेशल थाळी">
+                <div class="card-badge">★ Special</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="mutton_special.png" alt="Mutton Special Thali"></div>
+                <div class="full-card-body">
+                    <h3>Mutton Special Thali</h3>
+                    <p class="marathi-sub">मटन स्पेशल थाळी</p>
+                    <p class="desc">Rich tender mutton curry, spicy mutton fry, bowl of authentic rassa.</p>
+                    <div class="full-card-footer"><span class="price">₹490.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 3. Mutton Thali -->
+            <div class="full-card" data-pill="thali mutton" data-name="mutton thali मटन थाळी">
+                <div class="card-badge">★ Traditional</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="mutton_thali.png" alt="Mutton Thali"></div>
+                <div class="full-card-body">
+                    <h3>Mutton Thali</h3>
+                    <p class="marathi-sub">मटन थाळी</p>
+                    <p class="desc">Traditional cooked mutton curry served with aromatic rice and rassa.</p>
+                    <div class="full-card-footer"><span class="price">₹380.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 4. Mutton Kalvan -->
+            <div class="full-card" data-pill="thali mutton" data-name="mutton kalvan मटन कालवण">
+                <div class="card-badge">★ Full/Half</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="mutton_kalvan.png" alt="Mutton Kalvan"></div>
+                <div class="full-card-body">
+                    <h3>Mutton Kalvan</h3>
+                    <p class="marathi-sub">मटन कालवण (फुल / हाफ)</p>
+                    <p class="desc">Full: ₹920.00 | Half: ₹740.00. Authentic spicy black-gravy Maharashtrian mutton curry.</p>
+                    <div class="full-card-footer"><span class="price">₹920 / 740</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 5. Chicken Gavakadchi Thali -->
+            <div class="full-card" data-pill="thali chicken" data-name="chicken gavakadchi thali चिकन गावकडची थाळी">
+                <div class="card-badge">★ Village Style</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="chicken_gavakadchi.png" alt="Chicken Gavakadchi Thali"></div>
+                <div class="full-card-body">
+                    <h3>Chicken Gavakadchi Thali</h3>
+                    <p class="marathi-sub">चिकन गावकडची थाळी</p>
+                    <p class="desc">Village-style country chicken preparation, chicken sukka, and fresh bhakri.</p>
+                    <div class="full-card-footer"><span class="price">₹430.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 6. Chicken Special Thali -->
+            <div class="full-card" data-pill="thali chicken" data-name="chicken special thali चिकन स्पेशल थाळी">
+                <div class="card-badge">★ Bestseller</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="chicken_special.png" alt="Chicken Special Thali"></div>
+                <div class="full-card-body">
+                    <h3>Chicken Special Thali</h3>
+                    <p class="marathi-sub">चिकन स्पेशल थाळी</p>
+                    <p class="desc">Rich chicken gravy, spicy fried chicken piece, eggs, rassa, and unlimited rice/roti.</p>
+                    <div class="full-card-footer"><span class="price">₹360.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 7. Chicken Thali -->
+            <div class="full-card" data-pill="thali chicken" data-name="chicken thali चिकन थाळी">
+                <div class="card-badge">★ Classic</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="chicken_thali.png" alt="Chicken Thali"></div>
+                <div class="full-card-body">
+                    <h3>Chicken Thali</h3>
+                    <p class="marathi-sub">चिकन थाळी</p>
+                    <p class="desc">Classic flavorful chicken curry served with indrayani rice and hot roti or bhakri.</p>
+                    <div class="full-card-footer"><span class="price">₹290.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 8. Chicken Kalvan -->
+            <div class="full-card" data-pill="thali chicken" data-name="chicken kalvan चिकन कालवण">
+                <div class="card-badge">★ Full/Half</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="chicken_kalvan.png" alt="Chicken Kalvan"></div>
+                <div class="full-card-body">
+                    <h3>Chicken Kalvan</h3>
+                    <p class="marathi-sub">चिकन कालवण (फुल / हाफ)</p>
+                    <p class="desc">Full: ₹690.00 | Half: ₹450.00. Richly spiced traditional chicken curry.</p>
+                    <div class="full-card-footer"><span class="price">₹690 / 450</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 9. Egg Thali -->
+            <div class="full-card" data-pill="thali" data-name="egg thali अंडा थाळी">
+                <div class="card-badge">★ Egg Special</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="egg_thali.png" alt="Egg Thali"></div>
+                <div class="full-card-body">
+                    <h3>Egg Thali</h3>
+                    <p class="marathi-sub">अंडा थाळी</p>
+                    <p class="desc">Spicy boiled egg curry cooked in onion-coconut gravy with rassa and rice.</p>
+                    <div class="full-card-footer"><span class="price">₹240.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 10. Chicken Rogan Josh -->
+            <div class="full-card" data-pill="chicken" data-name="chicken rogan josh चिकन रोगन जोश">
+                <div class="card-badge">★ Main Course</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="chicken_rogan_josh.png" alt="Chicken Rogan Josh"></div>
+                <div class="full-card-body">
+                    <h3>Chicken Rogan Josh</h3>
+                    <p class="marathi-sub">चिकन रोगन जोश</p>
+                    <p class="desc">Chicken pieces simmered in rich Kashmiri spices and yogurt gravy.</p>
+                    <div class="full-card-footer"><span class="price">₹370.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 11. Chicken Murg Musslam -->
+            <div class="full-card" data-pill="chicken" data-name="chicken murg musslam चिकन मुर्ग मस्सल्लम">
+                <div class="card-badge">★ Royal</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="murg_mussallam.png" alt="Chicken Murg Musslam"></div>
+                <div class="full-card-body">
+                    <h3>Chicken Murg Musslam</h3>
+                    <p class="marathi-sub">चिकन मुर्ग मस्सल्लम (फुल / हाफ)</p>
+                    <p class="desc">Full: ₹890.00 | Half: ₹560.00. Whole roasted chicken slow-cooked in mughlai gravy.</p>
+                    <div class="full-card-footer"><span class="price">₹890 / 560</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 12. Chicken Do Pyaza -->
+            <div class="full-card" data-pill="chicken" data-name="chicken do pyaza चिकन दो प्याजा">
+                <div class="card-badge">★ Onion Special</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="chicken_do_pyaza.png" alt="Chicken Do Pyaza"></div>
+                <div class="full-card-body">
+                    <h3>Chicken Do Pyaza</h3>
+                    <p class="marathi-sub">चिकन दो प्याजा</p>
+                    <p class="desc">Tender chicken cooked with crunchy double-portioned sautéed onions.</p>
+                    <div class="full-card-footer"><span class="price">₹310.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 13. Chicken Tikka Masala -->
+            <div class="full-card" data-pill="chicken" data-name="chicken tikka masala चिकन टिक्का मसाला">
+                <div class="card-badge">★ Grill Flavor</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="chicken_tikka_masala.png" alt="Chicken Tikka Masala"></div>
+                <div class="full-card-body">
+                    <h3>Chicken Tikka Masala</h3>
+                    <p class="marathi-sub">चिकन टिक्का मसाला</p>
+                    <p class="desc">Smoky grilled tandoori chicken tikka chunks cooked in a velvety spiced curry.</p>
+                    <div class="full-card-footer"><span class="price">₹410.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 14. Chicken Masala -->
+            <div class="full-card" data-pill="chicken" data-name="chicken masala चिकन मसाला">
+                <div class="card-badge">★ Classic</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="chicken_masala.png" alt="Chicken Masala"></div>
+                <div class="full-card-body">
+                    <h3>Chicken Masala</h3>
+                    <p class="marathi-sub">चिकन मसाला</p>
+                    <p class="desc">Traditional Indian spiced chicken cooked with roasted aromatic spices.</p>
+                    <div class="full-card-footer"><span class="price">₹390.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+
+            <!-- 15. Chicken Banjara -->
+            <div class="full-card" data-pill="chicken" data-name="chicken banjara चिकन बंजारा">
+                <div class="card-badge">★ Herb Spiced</div>
+                <div class="veg-indicator non-veg"></div>
+                <div class="full-card-img"><img src="chicken_banjara.png" alt="Chicken Banjara"></div>
+                <div class="full-card-body">
+                    <h3>Chicken Banjara</h3>
+                    <p class="marathi-sub">चिकन बंजारा</p>
+                    <p class="desc">Aromatic spiced chicken cooked with special Banjara herbs and yogurt.</p>
+                    <div class="full-card-footer"><span class="price">₹380.00</span><span class="type-badge non-veg">Non-Veg</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="reviews-section section">
+        <p class="section-subtitle reveal-title">TESTIMONIALS</p>
+        <h2 class="reveal-title">What Our Patrons Say</h2>
+        
+        <div class="reviews-container">
+            <div class="reviews-track" id="reviewsTrack">
+                <!-- Dynamically loaded from database -->
+            </div>
+        </div>
+
+        <div class="review-form-container reveal-element">
+            <h3>Share Your Experience</h3>
+            <p class="form-subtext">We value your feedback! Tell us about your dining experience.</p>
+            <form id="reviewForm" class="review-form">
+                <div class="form-row">
+                    <input type="text" id="reviewerName" placeholder="Your Name" required>
+                    <select id="reviewRating" required>
+                        <option value="" disabled selected>Select Rating</option>
+                        <option value="5">★★★★★ (5/5)</option>
+                        <option value="4">★★★★☆ (4/5)</option>
+                        <option value="3">★★★☆☆ (3/5)</option>
+                        <option value="2">★★☆☆☆ (2/5)</option>
+                        <option value="1">★☆☆☆☆ (1/5)</option>
+                    </select>
+                </div>
+                <textarea id="reviewComment" rows="4" placeholder="Write your review here..." required></textarea>
+                <button type="submit" class="gold-button">Submit Review</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact section">
+        <p class="section-subtitle reveal-title">GET IN TOUCH</p>
+        <h2 class="reveal-title">Visit शौर्यवाडा</h2>
+        <div class="contact-container reveal-element">
+            <div>
+                <h3>Location</h3>
+                <p>FC Road / Baner, Pune, Maharashtra</p>
+            </div>
+            <div>
+                <h3>Opening Hours</h3>
+                <p>Mon - Sun: 11:00 AM - 11:30 PM</p>
+            </div>
+            <div>
+                <h3>Reservations</h3>
+                <p>+91 98765 43210</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <img src="Logo.png" alt="Shauryawada Logo">
+        <p>&copy; 2026 शौर्यवाडा Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="restrojs.js"></script>
+</body>
+</html>
